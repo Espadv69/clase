@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(21,0,255,1) 33%, rgba(0,202,255,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    background: linear-gradient(0deg, rgba(48,117,255,1) 39%, rgba(0,249,255,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 50px 15px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 380px;
+    flex-wrap: nowrap;
+    background-color: whitesmoke;
+}
+
+form h2 {
+    margin-top: 0;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+
+form p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.604);
+    margin-bottom: 35px;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 350px;
+    margin-bottom: 35px;
+}
+
+input {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 0.7rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    outline: none;
+    font-size: 16px;
+}
+
+input::placeholder {
+    text-align: center;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.551);
+}
+
+textarea {
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    max-width: 90%;
+    max-height: 30%;
+}
+
+.boton {
+    padding: 10px;
+    background: linear-gradient(36deg, rgba(106,106,106,1) 31%, rgba(187,188,190,1) 100%);
+    width: 50%;
+    margin-inline: 25%;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: linear-gradient(36deg, rgba(187,188,190,1) 31%, rgba(106,106,106,1) 100%);
+}
+
+.success {
+    position: absolute;
+    top: 20px;
+    color: green;
+    font-size: 18px;
+}
+
+.error {
+    position: absolute;
+    top: 20px;
+    color: red;
+    font-size: 18px;
+}
+
+@media(max-width:991px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .input-wrapper {
+        position: relative;
+        width: 88%;
+        margin-bottom: 35px;
+    }
+
+    input {
+        padding: 20px;
+    }
+}
