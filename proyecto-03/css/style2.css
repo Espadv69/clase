@@ -1,0 +1,28 @@
+body {
+    background-image: url(fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    display: flex;
+    margin-top: 100px;
+    width: auto;
+    margin-inline: 30%;
+    border-radius: 2rem;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 0px 12px rgb(255, 255, 255);
+}
+
+p {
+    padding: 10px;
+    background: #1f44003a;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-inline: 30%;
+}

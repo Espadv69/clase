@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    background-image: url(img/water.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
+form {
+    padding: 5px;
+    margin-top: 5px;
+}
+.formArchivo {
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+
+}
+.row {
+    margin: 0;
+}
+.card{
+    width: 80vw;
+    background: #96e1ffb4;
+}
+.btn {
+    margin-top: 20px;
+    background: #abf9ffa2;
+    color: black;
+    border: none;
+}
+.btn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
